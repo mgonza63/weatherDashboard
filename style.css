@@ -1,0 +1,49 @@
+#title {
+    background-color: slategray;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+#searchField {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: 18px;
+    padding: 30px 40px;
+    float: left;
+
+
+}
+#cityList {
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 1px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: 18px;
+    padding: 10px 10px;
+
+}
+#cityInput {
+    margin-bottom: 20px;
+}
+#weatherField {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: 18px;
+    padding: 30px 40px;
+    margin-right: 10px;
+    float: right;
+
+
+}
+#gutter {
+    float: left;
+}
+

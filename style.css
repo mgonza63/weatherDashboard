@@ -43,7 +43,18 @@
 
 
 }
-#gutter {
-    float: left;
+#forecastField {
+    float: right;
 }
 
+#days {
+    background-color: hsl(200, 34%, 57%);
+    margin-bottom: 1px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px 0px;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}

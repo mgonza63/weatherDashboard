@@ -47,7 +47,7 @@
     float: right;
 }
 
-#days {
+.col {
     background-color: hsl(200, 34%, 57%);
     margin-bottom: 1px;
     border-width: 1px;

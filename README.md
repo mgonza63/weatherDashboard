@@ -1,15 +1,21 @@
 # weatherDashboard
 This weather dashboard takes data from the openweather API and allows you to check the current weather and a 5-day forecast of any city you want. Here is a link to the live server:
-https://mgonza63.github.io/weatherDashboard/ - automatic!
-[GitHub](https://mgonza63.github.io/weatherDashboard/)
+https://mgonza63.github.io/weatherDashboard/ 
+[GitHub-repo](https://mgonza63.github.io/weatherDashboard/)
 
 ![GitHub Logo](pic.png)
-Format: ![Alt Text](url)
+
 
 * I managed to get the three data collections to work, but for some reason the uv index would stop working and crash the website
     * I commented it out, so you don't experience any problems.
 
 ```javascript
+          var lon = response.coord.lon;
+          var lat = response.coord.lat;
+          var uvKey = "d68917803103c196cc3a57791401fdc9";
+
+          var uvURL = "https://api.openweathermap.org/data/2.5/uvi?appid=" + uvKey + "&lat=" + lat + "&lon=" + lon;
+          
           $.ajax({
              url: uvURL,
              method: "GET"

@@ -1,17 +1,21 @@
 $(document).ready(function() {
-  if ($("#cityInput") === "")  {
-
-  }
 
     $("#submitWeather").on("click", function() {
 
         var cityInput = $("#cityInput").val();
+
+        
     
         var APIKey = "6e314ca29224f22bfcbc9e31488128dc";
-    
         
         var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityInput + "&appid=" + APIKey + "&units=imperial";
         
+        var cityList = $("#cities").append("<button" + cityInput + "</button>");
+
+        localStorage.setItem("ciudades", cityList);
+        $("cities").html = localStorage.getItem("ciudades");
+
+        $
         
         $.ajax({
           url: queryURL,

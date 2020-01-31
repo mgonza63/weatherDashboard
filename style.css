@@ -35,6 +35,9 @@
     border-radius: 5px;
     border-width: 1px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    border: 2px solid;
+    border-color: lightslategray;
+
     color: hsl(206, 17%, 28%);
     font-size: 18px;
     padding: 30px 40px;
@@ -45,6 +48,7 @@
 }
 #forecastField {
     float: right;
+
 }
 
 .col {
@@ -57,4 +61,11 @@
     padding: 10px 10px;
     margin-top: 20px;
     margin-right: 10px;
+}
+#title2  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: hsl(214, 34%, 57%);
+    border-bottom: 2px solid slategray;
+
 }
